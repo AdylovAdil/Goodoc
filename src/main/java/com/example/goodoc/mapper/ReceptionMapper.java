@@ -2,7 +2,7 @@ package com.example.goodoc.mapper;
 
 import com.example.goodoc.dto.reception.ReceptionRequest;
 import com.example.goodoc.dto.reception.ReceptionResponse;
-import com.example.goodoc.model.Reception;
+import com.example.goodoc.entity.Reception;
 
 import java.util.List;
 

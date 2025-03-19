@@ -4,7 +4,7 @@ import com.example.goodoc.dto.medicine.MedicineRequest;
 import com.example.goodoc.dto.medicine.MedicineResponse;
 import com.example.goodoc.exception.CustomException;
 import com.example.goodoc.mapper.MedicineMapper;
-import com.example.goodoc.model.Medicine;
+import com.example.goodoc.entity.Medicine;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.http.HttpStatus;
 import org.springframework.stereotype.Component;

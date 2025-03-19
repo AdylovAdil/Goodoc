@@ -4,7 +4,7 @@ import com.example.goodoc.dto.releaseForm.ReleaseFormRequest;
 import com.example.goodoc.dto.releaseForm.ReleaseFormResponse;
 import com.example.goodoc.exception.CustomException;
 import com.example.goodoc.mapper.ReleaseFormMapper;
-import com.example.goodoc.model.ReleaseForm;
+import com.example.goodoc.entity.ReleaseForm;
 import com.example.goodoc.repository.ReleaseFormRepository;
 import com.example.goodoc.service.ReleaseFormService;
 import lombok.AllArgsConstructor;

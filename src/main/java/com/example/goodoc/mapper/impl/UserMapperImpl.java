@@ -3,7 +3,7 @@ package com.example.goodoc.mapper.impl;
 import com.example.goodoc.dto.user.UserRequest;
 import com.example.goodoc.dto.user.UserResponse;
 import com.example.goodoc.mapper.UserMapper;
-import com.example.goodoc.model.User;
+import com.example.goodoc.entity.User;
 import org.springframework.stereotype.Component;
 
 import java.util.ArrayList;

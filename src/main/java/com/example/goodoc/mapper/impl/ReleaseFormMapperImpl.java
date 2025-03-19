@@ -3,7 +3,7 @@ package com.example.goodoc.mapper.impl;
 import com.example.goodoc.dto.releaseForm.ReleaseFormRequest;
 import com.example.goodoc.dto.releaseForm.ReleaseFormResponse;
 import com.example.goodoc.mapper.ReleaseFormMapper;
-import com.example.goodoc.model.ReleaseForm;
+import com.example.goodoc.entity.ReleaseForm;
 import org.springframework.stereotype.Component;
 
 import java.util.ArrayList;

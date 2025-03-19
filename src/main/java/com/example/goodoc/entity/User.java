@@ -1,4 +1,4 @@
-package com.example.goodoc.model;
+package com.example.goodoc.entity;
 
 import com.example.goodoc.enums.Role;
 import jakarta.persistence.*;
