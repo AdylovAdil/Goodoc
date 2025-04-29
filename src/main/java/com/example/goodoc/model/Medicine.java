@@ -1,4 +1,4 @@
-package com.example.goodoc.entity;
+package com.example.goodoc.model;
 
 import jakarta.persistence.*;
 import lombok.Data;

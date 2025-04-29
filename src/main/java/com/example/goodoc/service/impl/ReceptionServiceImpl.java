@@ -4,7 +4,7 @@ import com.example.goodoc.dto.reception.ReceptionRequest;
 import com.example.goodoc.dto.reception.ReceptionResponse;
 import com.example.goodoc.exception.CustomException;
 import com.example.goodoc.mapper.ReceptionMapper;
-import com.example.goodoc.entity.Reception;
+import com.example.goodoc.model.Reception;
 import com.example.goodoc.repository.ReceptionRepository;
 import com.example.goodoc.service.ReceptionService;
 import lombok.AllArgsConstructor;

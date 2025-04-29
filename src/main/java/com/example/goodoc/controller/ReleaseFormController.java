@@ -11,6 +11,7 @@ import java.util.List;
 @RestController
 @AllArgsConstructor
 @RequestMapping("/releaseForm")
+@CrossOrigin(origins = "*", maxAge = 3600)
 public class ReleaseFormController {
     private final ReleaseFormService releaseFormService;
 

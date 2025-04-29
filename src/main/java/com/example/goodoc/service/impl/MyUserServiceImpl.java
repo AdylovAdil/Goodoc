@@ -1,10 +1,8 @@
 package com.example.goodoc.service.impl;
 
-import com.example.goodoc.dto.user.UserRequest;
 import com.example.goodoc.dto.user.UserResponse;
 import com.example.goodoc.exception.CustomException;
 import com.example.goodoc.mapper.UserMapper;
-import com.example.goodoc.entity.User;
 import com.example.goodoc.repository.UserRepository;
 import com.example.goodoc.service.MyUserService;
 import lombok.AllArgsConstructor;
@@ -38,10 +36,5 @@ public class MyUserServiceImpl implements MyUserService {
             throw new CustomException("User not found!", HttpStatus.NOT_FOUND);
         }
 
-    }
-
-    @Override
-    public UserResponse save(UserRequest userRequest) {
-        return userMapper.toDto(userRepository.save(userMapper.toDtoUser(new User(), userRequest)));
     }
 }

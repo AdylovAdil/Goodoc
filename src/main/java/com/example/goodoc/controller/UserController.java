@@ -1,6 +1,5 @@
 package com.example.goodoc.controller;
 
-import com.example.goodoc.dto.user.UserRequest;
 import com.example.goodoc.dto.user.UserResponse;
 import com.example.goodoc.service.MyUserService;
 import lombok.AllArgsConstructor;
@@ -11,6 +10,7 @@ import java.util.List;
 @RestController
 @AllArgsConstructor
 @RequestMapping("/user")
+@CrossOrigin(origins = "*", maxAge = 3600)
 public class UserController {
     private final MyUserService userService;
 
@@ -27,10 +27,5 @@ public class UserController {
     @DeleteMapping("/deleteById/{id}")
     public void deleteById(@PathVariable Long id) {
         userService.deleteById(id);
-    }
-
-    @PostMapping("/create")
-    public UserResponse save(@RequestBody UserRequest userRequest) {
-        return userService.save(userRequest);
     }
 }

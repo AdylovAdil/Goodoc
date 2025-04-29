@@ -1,6 +1,6 @@
 package com.example.goodoc.repository;
 
-import com.example.goodoc.entity.ReleaseForm;
+import com.example.goodoc.model.ReleaseForm;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 

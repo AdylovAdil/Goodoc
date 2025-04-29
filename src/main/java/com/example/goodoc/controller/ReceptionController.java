@@ -11,6 +11,7 @@ import java.util.List;
 @RestController
 @AllArgsConstructor
 @RequestMapping("/reception")
+@CrossOrigin(origins = "*", maxAge = 3600)
 public class ReceptionController {
     private final ReceptionService receptionService;
 

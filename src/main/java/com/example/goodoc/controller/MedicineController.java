@@ -11,6 +11,7 @@ import java.util.List;
 @RestController
 @AllArgsConstructor
 @RequestMapping("/medicine")
+@CrossOrigin(origins = "*", maxAge = 3600)
 public class MedicineController {
     private final MedicineService medicineService;
 

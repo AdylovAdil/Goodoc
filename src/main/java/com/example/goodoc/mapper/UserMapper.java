@@ -2,7 +2,7 @@ package com.example.goodoc.mapper;
 
 import com.example.goodoc.dto.user.UserRequest;
 import com.example.goodoc.dto.user.UserResponse;
-import com.example.goodoc.entity.User;
+import com.example.goodoc.model.User;
 
 import java.util.List;
 

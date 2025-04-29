@@ -1,10 +1,9 @@
-package com.example.goodoc.dto.user;
+package com.example.goodoc.dto.auth;
 
 import lombok.Data;
 
 @Data
-public class UserResponse {
-    private Long id;
+public class AuthLoginRequest {
     private String number;
     private String password;
 }

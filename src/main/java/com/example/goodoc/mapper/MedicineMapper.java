@@ -2,7 +2,7 @@ package com.example.goodoc.mapper;
 
 import com.example.goodoc.dto.medicine.MedicineRequest;
 import com.example.goodoc.dto.medicine.MedicineResponse;
-import com.example.goodoc.entity.Medicine;
+import com.example.goodoc.model.Medicine;
 
 import java.util.List;
 

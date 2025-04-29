@@ -1,6 +1,6 @@
 package com.example.goodoc.repository;
 
-import com.example.goodoc.entity.Reception;
+import com.example.goodoc.model.Reception;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 
